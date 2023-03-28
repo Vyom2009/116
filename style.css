@@ -1,0 +1,22 @@
+body{
+    background-color:rgb(34, 255, 0);
+    color:rgb(26, 134, 170);
+    text-align: center;
+}
+.btn-warning:hover{
+   background-color:blue;
+}
+canvas{
+   animation-name:anime;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   margin-top: 70px;
+}
+@keyframes anime{
+   from{
+       box-shadow: 2px 2px 30px rgb(0, 115, 128);
+   }
+   to{
+       box-shadow: 2px 2px 30px orange;
+   }
+}
